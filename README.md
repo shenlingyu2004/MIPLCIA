@@ -1,9 +1,9 @@
-PIVOTMIPL: *Plan Inference via Variable-Occupancy Transport for Multi-Instance Partial-Label learning*
+MIPLCIA: *Multi-Instance Partial-Label Learning with Class-Instance Assignment*
 The algorithm frame work is shown in the figure below:
-![Framework](PIVOTMIPL.png)
-The structure of PIVOTMIPL project is
+MIPLCIA/[MIPLCIA.pdf](https://github.com/user-attachments/files/34962613/MIPLCIA.pdf)
+The structure of MIPLCIA project is
 ```text
-PIVOTMIPL/
+MIPLCIA/
 ├── main.py
 ├── model.py
 ├── dataloader.py
@@ -24,7 +24,7 @@ PIVOTMIPL/
     └── fineaction_slowfast.sbatch
 ```
 
-PIVOTMIPL is implemented in PyTorch and requires an NVIDIA GPU because the temporal encoder uses the CUDA implementation of Mamba-2. We recommend creating the provided Conda environment first:
+MIPLCIA is implemented in PyTorch and requires an NVIDIA GPU because the temporal encoder uses the CUDA implementation of Mamba-2. We recommend creating the provided Conda environment first:
 
 ```bash
 conda env create -f environment.yml
