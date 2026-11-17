@@ -1,6 +1,8 @@
 MIPLCIA: *Multi-Instance Partial-Label Learning with Class-Instance Assignment*
+
 The algorithm frame work is shown in the figure below:
 ![MIPLCIA](MIPLCIA.png)
+
 The structure of MIPLCIA project is
 ```text
 MIPLCIA/
